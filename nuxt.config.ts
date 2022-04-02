@@ -32,7 +32,7 @@ export default defineNuxtConfig({
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap",
       },
-      { rel: "icon", type: "image/x-icon", href: "/static/favicon.ico" },
+      { rel: "icon", type: "image/x-icon", href: "~/public/favicon.ico" },
     ],
   },
 });
