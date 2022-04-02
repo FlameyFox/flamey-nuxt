@@ -17,12 +17,6 @@
   </div>
 </template>
 
-<script>
-definePageMeta({
-  title: "Flameyfox",
-});
-</script>
-
 <style lang="scss">
 *,
 :after,

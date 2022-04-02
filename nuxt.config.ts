@@ -3,8 +3,10 @@ import { defineNuxtConfig } from "nuxt3";
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   meta: {
+    title: "Flameyfox - Web Developer",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { meta: "title", content: "Flameyfox" },
       {
         name: "description",
         content:
@@ -13,7 +15,7 @@ export default defineNuxtConfig({
       { name: "robots", content: "index" },
       { property: "og:locale", content: "en_US" },
       { property: "og:type", content: "website" },
-      { property: "og:title", content: "Flameyfox" },
+      { property: "og:title", content: "Flameyfox - Web Developer" },
       {
         property: "og:description",
         content:
