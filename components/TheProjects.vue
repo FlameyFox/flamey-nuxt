@@ -27,8 +27,8 @@
         <hr />
         <p>
           Continue building on Yippr and similar projects to gain experience in the tech stack and
-          some hands on experience with a project and community.
-          Contact me if you are interested in working together.
+          some hands on experience with a project and community.<br>
+          Contact me if you are interested in working on a project together.
         </p>
       </div>
       <a class="btn" href="#">. . . . . . . . . . . </a>
