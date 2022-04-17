@@ -26,8 +26,9 @@
         <h4>2023 and onwards..</h4>
         <hr />
         <p>
-          Continue building on Yippr to gain experience in the tech stack and
+          Continue building on Yippr and similar projects to gain experience in the tech stack and
           some hands on experience with a project and community.
+          Contact me if you are interested in working together.
         </p>
       </div>
       <a class="btn" href="#">. . . . . . . . . . . </a>
