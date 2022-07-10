@@ -2,33 +2,34 @@
   <section class="projects">
     <div class="project yippr">
       <div class="info">
-        <h3>Yippr</h3>
+        <h3>FlameyTV</h3>
         <h4>2022 - under development</h4>
         <hr />
         <p>
-          A social platform build using NuxtJS and Supabase. It's inspired by
-          Twitter and has borrowed many features from there, but builds on it
-          with tools directed towards engaging and commissioning with digital
-          artists and content creators.
+          Making a fake streaming platform using NuxtJS and TheMovieDatabase API
+          to hone my skills and play around with design ideas, optimization and
+          to have something to pour my creative energy into, if i'm not thinking
+          of other new ideas..
         </p>
       </div>
       <a
         class="btn"
         target="_blank"
         rel="noopener nofollow"
-        href="https://yippr.net"
+        href="https://github.com/FlameyFox/FlameyTV"
         >View project</a
       >
     </div>
     <div class="project">
       <div class="info">
-        <h3>Future plans</h3>
+        <h3>Yippr.net and more</h3>
         <h4>2023 and onwards..</h4>
         <hr />
         <p>
-          Continue building on Yippr and similar projects to gain experience in the tech stack and
-          some hands on experience with a project and community.<br>
-          Contact me if you are interested in working on a project together.
+          A idea for social platform build using NuxtJS and Supabase. It's
+          inspired by Twitter and has borrowed many features from there, but
+          builds on it with tools directed towards engaging and commissioning
+          with digital artists and content creators.
         </p>
       </div>
       <a class="btn" href="#">. . . . . . . . . . . </a>
