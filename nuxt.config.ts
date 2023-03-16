@@ -4,17 +4,17 @@ import { defineNuxtConfig } from "nuxt3";
 export default defineNuxtConfig({
   meta: {
     htmlAttrs: {
-      lang: 'en'
+      lang: "en",
     },
     title: "Flameyfox - Web Developer",
     meta: [
-      { charset: 'utf-8' },
+      { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { meta: "title", content: "Flameyfox" },
       {
         name: "description",
         content:
-          "Web developer based in Odense, Denmark. Minimalistic design and solutions with approachable UX",
+          "Web developer based in Odense, Denmark. Making minimalistic design and solutions with approachable UX",
       },
       { name: "robots", content: "index" },
       { property: "og:locale", content: "en_US" },
@@ -23,7 +23,7 @@ export default defineNuxtConfig({
       {
         property: "og:description",
         content:
-          "Web developer based in Odense, Denmark. Minimalistic design and solutions with approachable UX",
+          "Web developer based in Odense, Denmark. Making minimalistic design and solutions with approachable UX",
       },
       { property: "og:url", content: "https://flameyfox.com" },
       { property: "og:site_name", content: "Flameyfox" },
