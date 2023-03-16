@@ -3,13 +3,12 @@
     <div class="project yippr">
       <div class="info">
         <h3>FlameyTV</h3>
-        <h4>2022 - under development</h4>
+        <h4>Under development</h4>
         <hr />
         <p>
-          Making a fake streaming platform using NuxtJS and TheMovieDatabase API
-          to hone my skills and play around with design ideas, optimization and
-          to have something to pour my creative energy into, if i'm not thinking
-          of other new ideas..
+          Using NuxtJS and TheMovieDatabase API to hone my skills and play
+          around with design ideas, optimization and to have something to pour
+          my creative energy into, if i'm not thinking of other new ideas..
         </p>
       </div>
       <a
@@ -22,17 +21,18 @@
     </div>
     <div class="project">
       <div class="info">
-        <h3>Yippr.net and more</h3>
-        <h4>2023 and onwards..</h4>
+        <h3>Flamey Estates</h3>
+        <h4>Under development</h4>
         <hr />
-        <p>
-          A idea for social platform build using NuxtJS and Supabase. It's
-          inspired by Twitter and has borrowed many features from there, but
-          builds on it with tools directed towards engaging and commissioning
-          with digital artists and content creators.
-        </p>
+        <p>Real Estate demo project build using Nuxt and DatoCMS</p>
       </div>
-      <a class="btn" href="#">. . . . . . . . . . . </a>
+      <a
+        class="btn"
+        target="_blank"
+        rel="noopener nofollow"
+        href="https://github.com/FlameyFox/RealEstate"
+        >View project</a
+      >
     </div>
   </section>
 </template>
