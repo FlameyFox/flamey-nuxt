@@ -15,7 +15,7 @@
         class="btn"
         target="_blank"
         rel="noopener nofollow"
-        href="https://github.com/FlameyFox/FlameyTV"
+        href="https://flamey-tv.vercel.app/"
         >View project</a
       >
     </div>
@@ -30,7 +30,7 @@
         class="btn"
         target="_blank"
         rel="noopener nofollow"
-        href="https://github.com/FlameyFox/RealEstate"
+        href="https://realestate-omega-amber.vercel.app/"
         >View project</a
       >
     </div>
