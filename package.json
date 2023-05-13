@@ -9,6 +9,7 @@
     "nuxt3": "latest"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.0.1",
     "sass": "^1.49.11"
   }
 }
