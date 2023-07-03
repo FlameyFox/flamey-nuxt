@@ -1,6 +1,14 @@
 <template>
   <footer>
-    <aside>&copy; 2022 flameyfox.com</aside>
+    <aside>
+      &copy; 2022 flameyfox.com –
+      <nuxt-link
+        href="https://usefathom.com/ref/GJRIYY"
+        target="_blank"
+        rel="noopener"
+        >Support Privacy and use cookieless tracking with fathom</nuxt-link
+      >♥
+    </aside>
     <aside class="links">
       <a
         href="https://github.com/FlameyFox"
@@ -45,20 +53,26 @@ footer {
     max-width: 80vw;
   }
 
+  a {
+    text-decoration: underline;
+    margin: 0 0.4rem;
+    color: inherit;
+  }
+
   .links {
     a {
       text-decoration: none;
-      margin: 0 .4rem;
+      margin: 0 0.4rem;
       svg {
-        width:28px;
+        width: 28px;
         path {
           fill: #959595;
-          transition: all .3s ease-in-out;
+          transition: all 0.3s ease-in-out;
         }
       }
 
-      &:hover{
-        svg path{
+      &:hover {
+        svg path {
           fill: #333;
         }
       }
