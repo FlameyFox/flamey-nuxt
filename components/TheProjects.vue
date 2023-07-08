@@ -40,16 +40,16 @@
 <style lang="scss" scoped>
 .projects {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   margin-top: 1.5rem;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2.5rem;
   }
 
   .project {
-    padding: 1.5rem;
+    padding: 2.5rem;
     border-radius: 22px;
     background: #fff;
     flex: 1;

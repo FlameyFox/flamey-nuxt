@@ -1,18 +1,6 @@
 <template>
   <div class="wrapper">
-    <section class="flamey">
-      <div class="center">
-        <h1>FlameyFox</h1>
-        <h3>Web Developer based in Odense, DK.</h3>
-        <p>
-          I love making minimalist design, optimizing performance, and<br />
-          streamlining UX in modern fun approachable solutions.
-        </p>
-
-        <!-- <h2>Recent work and projects</h2> -->
-        <TheProjects />
-      </div>
-    </section>
+    <NuxtPage />
     <TheFooter />
   </div>
 </template>
@@ -38,6 +26,7 @@ html,
 body {
   background-color: #f3f3f3;
   font-size: 100%;
+  color: #222;
 }
 .wrapper {
   display: flex;
@@ -45,37 +34,22 @@ body {
   flex-direction: column;
   min-height: 100%;
 }
-.flamey {
-  flex-grow: 1;
-  flex-shrink: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.35s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
 
-  @media screen and (max-width: 768px) {
-    padding: 1.5rem;
-  }
-
-  .center {
-    max-width: 800px;
-    width: 100%;
-
-    h1 {
-      font-size: 3.2rem;
-      font-weight: 600;
-    }
-    h2 {
-      font-weight: 600;
-      font-size: 2.2rem;
-    }
-    h3 {
-      font-weight: 400;
-      margin-bottom: 0.5rem;
-    }
-    p {
-      font-weight: 200;
-      font-size: 1.1rem;
-    }
-  }
+.goback {
+  background: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+  margin-bottom: 1rem;
+  max-width: max-content;
+  border-radius: 10px;
 }
 </style>
