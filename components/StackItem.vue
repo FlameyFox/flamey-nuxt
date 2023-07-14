@@ -1,24 +1,25 @@
 <template>
-  <nuxt-link
-    v-if="this.link"
-    :to="this.link"
-    rel="noopener nofollow"
-    target="_blank"
-    class="item"
-  >
-    <aside class="left">
-      <img
-        v-if="this.img && this.title"
-        class="logo"
-        :src="this.img"
-        :alt="this.title + 'Logo'"
-      />
-    </aside>
-    <aside class="right">
-      <h3>{{ this.title }}</h3>
-      <slot />
-    </aside>
-  </nuxt-link>
+  <div v-if="link">
+    <nuxt-link
+      :to="link"
+      rel="noopener nofollow"
+      target="_blank"
+      class="item"
+    >
+      <aside class="left">
+        <img
+          v-if="img && title"
+          class="logo"
+          :src="img"
+          :alt="title + 'Logo'"
+        />
+      </aside>
+      <aside class="right">
+        <h3>{{ title }}</h3>
+        <slot />
+      </aside>
+    </nuxt-link>
+  </div>
 </template>
 
 <script>
