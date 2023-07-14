@@ -5,11 +5,16 @@
       <h1>My Current Tech Stack</h1>
       <h3>
         Here is a list of some of my favorite tools and software that I use on a
-        daily basis.<br />Expect this list to grow over time as i'm always
-        looking for new tools to improve my workflow.<br />If you have any
-        suggestions, please let me know!<br />
+        daily basis.
+        <br />
+        Expect this list to grow over time as i'm always looking for new tools
+        to improve my workflow.
+        <br />
+        If you have any suggestions, please let me know!
+        <br />
         Click on any of them to read more.
       </h3>
+      <span>Full disclosure – some of these links are affiliate links.</span>
       <TheStack></TheStack>
     </div>
   </section>
@@ -31,6 +36,12 @@
 
   a {
     color: inherit;
+  }
+  span {
+    font-size: 0.8rem;
+    margin: 10px 0;
+    display: block;
+    color: #999;
   }
 
   .center {

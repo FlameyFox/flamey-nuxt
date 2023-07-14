@@ -4,7 +4,7 @@
       <div class="info">
         <h3>My Projects</h3>
         <hr />
-        <p>Take a look at my current projects.</p>
+        <p>Take a look at my current personal projects.</p>
       </div>
       <nuxt-link class="btn" to="/projects">Check em' out!</nuxt-link>
     </div>

@@ -3,9 +3,12 @@
     <div class="center">
       <nuxt-link class="goback" to="/">Go back</nuxt-link>
       <h1>Projects</h1>
-      <h3>Take a look at my current ongoing projects</h3>
-
-      <!-- <h2>Recent work and projects</h2> -->
+      <h3>
+        Take a look at my current personal projects.
+        <br />
+        These are just some projects that tinker with, not attended for real use
+        – but feel free to use them!
+      </h3>
       <TheProjects />
     </div>
   </section>
@@ -19,7 +22,7 @@
   justify-content: center;
   align-items: center;
 
-  a{
+  a {
     color: inherit;
   }
 
