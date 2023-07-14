@@ -73,10 +73,10 @@
         </nuxt-link>
         ).
         <br />
-        So when the time comes for me to make a solution in Wordpress, i use
+        So when the time comes for me to make a project in Wordpress, i use
         Breakdance.
         <br />
-        It's by far the best visuel editor i've used and the performance is
+        It's by far the best visual editor i've used and the performance is
         ridiculous. I highly reccommend checking it out, if you often deal with
         Wordpress.
       </p>
