@@ -44,7 +44,7 @@ export default {
     transform: translateY(-3px);
   }
 
-  @media screen and(max-width: 768px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
     padding: 1.5rem;
     gap: 1rem;
