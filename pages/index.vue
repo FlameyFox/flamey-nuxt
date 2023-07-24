@@ -1,8 +1,8 @@
-<template>
+r<template>
   <section class="flamey">
     <div class="center">
       <h1>FlameyFox</h1>
-      <h3>Web Developer based in Odense, DK.</h3>
+      <h3>Web Developer based in Denmark.</h3>
       <p>
         I love making websites of all kinds focusing on minimalistic clean
         designs, optimized performance, and approachable UX. On this website, i
