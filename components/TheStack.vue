@@ -3,8 +3,7 @@
     <stack-item
       title="Fathom Analytics"
       img="/img/fathom.svg"
-      link="https://usefathom.com/ref/GJRIYY"
-    >
+      link="https://usefathom.com/ref/GJRIYY">
       <p>
         Privacy is important and nobody likes cookie popups. I'm a big fan of
         cookieless tracking for analytics and Fathom does it best.
@@ -28,8 +27,7 @@
     <stack-item
       title="Visual Studio Code"
       img="/img/vscode.png"
-      link="https://code.visualstudio.com/"
-    >
+      link="https://code.visualstudio.com/">
       <p>
         Like many others, i use Visual Studio Code daily for my coding needs.
         Once you have it setup with all your extensions and such, it just works.
@@ -40,8 +38,7 @@
     <stack-item
       title="Notion"
       img="/img/notion.png"
-      link="https://affiliate.notion.so/wssgvyosbqgf"
-    >
+      link="https://affiliate.notion.so/wssgvyosbqgf">
       <p>
         I have recently started to take my notetaking more seriously.
         <br />
@@ -64,8 +61,7 @@
     <stack-item
       title="Breakdance"
       img="/img/breakdance.svg"
-      link="https://breakdance.com/ref/268/?campaign=portfolio"
-    >
+      link="https://breakdance.com/ref/268/?campaign=portfolio">
       <p>
         Love it or hate it, a big part of the internet still use Wordpress (
         <nuxt-link to="https://wordpress.com/" target="_blank">
@@ -79,6 +75,15 @@
         It's by far the best visual editor i've used and the performance is
         ridiculous. I highly reccommend checking it out, if you often deal with
         Wordpress.
+      </p> </stack-item
+    ><stack-item
+      title="WPMU"
+      img="/img/wpmu.svg"
+      link="https://wpmudev.com/?ref=596d7068636d746c5a5759344f5449784e5330784d7a41314d6a4578">
+      <p>
+        Speaking of Wordpress. Plugins. I like to keep it simple and efficient,
+        and the WPMU suite does that job perfectly. SEO, Security, Optimization.
+        It does it all, and supports whitelabelling too.
       </p>
     </stack-item>
     <stack-item title="Vercel" img="/img/vercel.svg" link="https://vercel.com/">
@@ -91,8 +96,7 @@
     <stack-item
       title="Thunderbird"
       img="/img/thunderbird.webp"
-      link="https://www.thunderbird.net/"
-    >
+      link="https://www.thunderbird.net/">
       <p>
         I know mail software is not the "hottest tech", but it's an important
         tool, and i have been using Thunderbird for a while. All my folders are
@@ -114,8 +118,8 @@
     gap: 1.5rem;
   }
 
-  p > a{
-    color:#222;
+  p > a {
+    color: #222;
   }
 }
 </style>
