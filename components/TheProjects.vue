@@ -3,7 +3,7 @@
     <div class="project yippr">
       <div class="info">
         <h3>FlameyTV</h3>
-        <h4>Under development</h4>
+        <h4>v1.0</h4>
         <hr />
         <p>
           Using NuxtJS and TheMovieDatabase API to hone my skills and play
@@ -21,16 +21,19 @@
     </div>
     <div class="project">
       <div class="info">
-        <h3>Flamey Estates</h3>
+        <h3>animetools.io</h3>
         <h4>Under development</h4>
         <hr />
-        <p>Real Estate demo project build using Nuxt and DatoCMS</p>
+        <p>
+          A selection of useful online web dev tools, such as an password
+          generator, data sets and more - all with an anime twist.
+        </p>
       </div>
       <a
         class="btn"
         target="_blank"
         rel="noopener nofollow"
-        href="https://realestate-omega-amber.vercel.app/"
+        href="https://animetools.io/"
         >View project</a
       >
     </div>
