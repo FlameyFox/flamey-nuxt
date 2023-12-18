@@ -15,6 +15,10 @@
 </template>
 
 <style lang="scss" scoped>
+.goback {
+  margin-top: 1rem;
+}
+
 .flamey {
   flex-grow: 1;
   flex-shrink: 0;

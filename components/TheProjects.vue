@@ -2,8 +2,43 @@
   <section class="projects">
     <div class="project yippr">
       <div class="info">
-        <h3>FlameyTV</h3>
+        <h3>bankmanden.dk</h3>
+        <h4>Planning...</h4>
+        <hr />
+        <p>
+          I feel more young people in my country of Denmark, needs to appreciate
+          "financial literacy" more, and that money/finance in general is pretty
+          taboo. A wish to make a website dedicated to provide free tools and
+          knowledge about finances and healthy economics. Packed with useful
+          tools, information, user profiles with stats and more.
+        </p>
+      </div>
+      <a class="btn" target="_blank" rel="noopener nofollow" href="https://twitter.com/Flamey_Fox"
+        >Stay tuned</a
+      >
+    </div>
+    <div class="project">
+      <div class="info">
+        <h3>animetools.io</h3>
         <h4>v1.0</h4>
+        <hr />
+        <p>
+          A selection of useful online web dev tools, such as an password
+          generator, data sets and more - all with an anime twist.
+        </p>
+      </div>
+      <a
+        class="btn"
+        target="_blank"
+        rel="noopener nofollow"
+        href="https://animetools.io/"
+        >View project</a
+      >
+    </div>
+    <div class="project">
+      <div class="info">
+        <h3>FlameyTV</h3>
+        <h4>v1.2</h4>
         <hr />
         <p>
           Using NuxtJS and TheMovieDatabase API to hone my skills and play
@@ -19,36 +54,20 @@
         >View project</a
       >
     </div>
-    <div class="project">
-      <div class="info">
-        <h3>animetools.io</h3>
-        <h4>Under development</h4>
-        <hr />
-        <p>
-          A selection of useful online web dev tools, such as an password
-          generator, data sets and more - all with an anime twist.
-        </p>
-      </div>
-      <a
-        class="btn"
-        target="_blank"
-        rel="noopener nofollow"
-        href="https://animetools.io/"
-        >View project</a
-      >
-    </div>
   </section>
 </template>
 
 <style lang="scss" scoped>
 .projects {
-  display: flex;
+  display: grid;
   gap: 2rem;
   margin-top: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 4rem;
 
   @media screen and (max-width: 768px) {
-    flex-direction: column;
-    gap: 2.5rem;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .project {

@@ -36,15 +36,16 @@
       </p>
     </stack-item>
     <stack-item
-      title="Notion"
-      img="/img/notion.png"
-      link="https://affiliate.notion.so/wssgvyosbqgf">
+      title="Obsidian"
+      img="/img/obsidian.svg"
+      link="https://obsidian.md">
       <p>
         I have recently started to take my notetaking more seriously.
         <br />
-        It has helped me keep on track with projects, personal growth and even
-        helped with my mental health and stress. Notion has helped by empower my
-        notetaking and has made setting up new projects and templates a breeze.
+        After having used Notion for while, i felt like i needed something different..
+        Something simpler, without too many unnecessary bells and whistles.
+        Obsidian seemed like the best choice, and it definitely grown on me, as i
+        have started using it more and more. Open source and packed with solid features.
       </p>
     </stack-item>
     <stack-item title="Arc" img="/img/arc.png" link="https://arc.net/">
@@ -120,6 +121,9 @@
 
   p > a {
     color: #222;
+  }
+  p{
+    font-size: 15px;
   }
 }
 </style>
