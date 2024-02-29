@@ -48,7 +48,7 @@
         have started using it more and more. Open source and packed with solid features.
       </p>
     </stack-item>
-    <stack-item title="Arc" img="/img/arc.png" link="https://arc.net/">
+    <stack-item title="Arc" img="/img/arc.png" link="https://arc.net/gift/33794e95">
       <p>
         Your browser is one of your most important tools.
         <br />
