@@ -42,10 +42,24 @@
       <p>
         I have recently started to take my notetaking more seriously.
         <br />
-        After having used Notion for while, i felt like i needed something different..
-        Something simpler, without too many unnecessary bells and whistles.
-        Obsidian seemed like the best choice, and it definitely grown on me, as i
-        have started using it more and more. Open source and packed with solid features.
+        After having used Notion for while, i felt like i needed something
+        different.. Something simpler, without too many unnecessary bells and
+        whistles. Obsidian seemed like the best choice, and it definitely grown
+        on me, as i have started using it more and more. Open source and packed
+        with solid features.
+      </p>
+    </stack-item>
+    <stack-item
+      title="Morningscore.io"
+      img="/img/morningscore.svg"
+      link="https://morningscore.io?fpr=bjarke47">
+      <p>
+        SEO is important, and can sometimes be a hassle.
+        <br />
+        Morningscore makes the whole process easier and WHOLE lot more fun, with
+        their gamified platform. I still have much to learn with SEO, and look
+        forward to improve my skills in it. Using Morningscore allows me to
+        maintain a solid SEO setup on multiple clients.
       </p>
     </stack-item>
     <stack-item title="Arc" img="/img/arc.png" link="https://arc.net/gift/33794e95">
@@ -122,7 +136,7 @@
   p > a {
     color: #222;
   }
-  p{
+  p {
     font-size: 15px;
   }
 }
