@@ -65,7 +65,7 @@
     <stack-item
       title="Arc"
       img="/img/arc.png"
-      link="https://arc.net/gift/33794e95gift/33794e95">
+      link="https://arc.net/gift/33794e95">
       <p>
         Your browser is one of your most important tools.
         <br />
