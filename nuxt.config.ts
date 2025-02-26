@@ -51,4 +51,31 @@ export default defineNuxtConfig({
   },
   css: ["~/assets/css/blog.css"],
   compatibilityDate: "2024-12-15",
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/sitemap.xml"],
+    },
+  },
+  build: {
+    extractCSS: true, // Extract CSS to improve load time
+    optimization: {
+      splitChunks: {
+        layouts: true,
+        pages: true,
+        commons: true,
+      },
+    },
+  },
+  router: {
+    prefetchLinks: true, // Enable link prefetching
+  },
+  cache: {
+    pages: ['*'], // Cache all pages
+    store: {
+      type: 'memory', // Use in-memory cache
+      max: 1000, // Maximum number of items in the cache
+      ttl: 60 * 60 * 24, // Time to live for cached items (1 day)
+    },
+  },
 });
