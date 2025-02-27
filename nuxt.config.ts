@@ -27,11 +27,6 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: "canonical", href: "https://flameyfox.com" },
-        { rel: "preconnect", href: "https://fonts.bunny.net" },
-        {
-          rel: "stylesheet",
-          href: "https://fonts.bunny.net/css?family=nunito:200,400,600,700",
-        },
         { rel: "icon", type: "image/x-icon", href: "favicon.ico" },
       ],
     },
@@ -49,7 +44,7 @@ export default defineNuxtConfig({
       return posts.map((post) => post._path);
     },
   },
-  css: ["~/assets/css/blog.css"],
+  css: ["~/assets/fonts/nunito.css", "~/assets/css/blog.css"],
   compatibilityDate: "2024-12-15",
   nitro: {
     prerender: {
@@ -71,9 +66,9 @@ export default defineNuxtConfig({
     prefetchLinks: true, // Enable link prefetching
   },
   cache: {
-    pages: ['*'], // Cache all pages
+    pages: ["*"], // Cache all pages
     store: {
-      type: 'memory', // Use in-memory cache
+      type: "memory", // Use in-memory cache
       max: 1000, // Maximum number of items in the cache
       ttl: 60 * 60 * 24, // Time to live for cached items (1 day)
     },

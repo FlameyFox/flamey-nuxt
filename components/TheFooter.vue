@@ -1,7 +1,7 @@
 <template>
   <footer>
     <aside>
-      &copy; 2022 flameyfox.com –
+      &copy; 2025 flameyfox.com –
       <nuxt-link
         href="https://usefathom.com/ref/GJRIYY"
         target="_blank"
