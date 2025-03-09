@@ -2,8 +2,8 @@
   <section class="projects">
     <div class="project yippr">
       <div class="info">
-        <h3>Njordfinance</h3>
-        <h4>Planning...</h4>
+        <h3>Njordfinance.com</h3>
+        <h4>v1.0 beta</h4>
         <hr />
         <p>
           I feel more young people in my country of Denmark, needs to appreciate
@@ -17,8 +17,8 @@
         class="btn"
         target="_blank"
         rel="noopener nofollow"
-        href="https://twitter.com/Flamey_Fox"
-        >Stay tuned</a
+        href="https://njordfinance.com/"
+        >View project</a
       >
     </div>
     <div class="project">
