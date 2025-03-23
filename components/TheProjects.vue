@@ -3,7 +3,7 @@
     <div class="project yippr">
       <div class="info">
         <h3>Njordfinance.com</h3>
-        <h4>v1.0 beta</h4>
+        <h4>v1.1 beta</h4>
         <hr />
         <p>
           I feel more young people in my country of Denmark, needs to appreciate
