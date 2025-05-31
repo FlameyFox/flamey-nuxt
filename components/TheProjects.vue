@@ -24,7 +24,7 @@
     <div class="project">
       <div class="info">
         <h3>animetools.io</h3>
-        <h4>v1.1</h4>
+        <h4>v2.0</h4>
         <hr />
         <p>
           A selection of useful online web dev tools, such as an password
