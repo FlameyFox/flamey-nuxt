@@ -110,8 +110,9 @@ Switching from Google Analytics to Fathom was easier than I expected:
 
 **Setup Time**: 15 minutes to add the tracking code and set up basic goals
 **Learning Curve**: Practically none—the interface is intuitive
-**Data History**: You'll start fresh, but the insights you gain are immediately actionable
+**Data History**: No need to start from zero—Fathom offers a GA4 importer tool so you can bring over your historical Google Analytics data and continue tracking seamlessly
 **Cost**: Starting at $14/month for most small sites (compare that to the hidden costs of GDPR compliance with Google Analytics)
+
 
 ---
 
