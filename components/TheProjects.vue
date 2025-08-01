@@ -28,14 +28,14 @@
         <hr />
         <p>
           A selection of useful online web dev tools, such as an password
-          generator, data sets and more - all with an anime twist.
+          generator, data sets and more - all with an anime twist. No longer actively developing.
         </p>
       </div>
       <a
         class="btn"
         target="_blank"
         rel="noopener nofollow"
-        href="https://animetools.io/"
+        href="https://animetools.vercel.app/"
         >View project</a
       >
     </div>
@@ -45,9 +45,7 @@
         <h4>v1.2</h4>
         <hr />
         <p>
-          Using NuxtJS and TheMovieDatabase API to hone my skills and play
-          around with design ideas, optimization and to have something to pour
-          my creative energy into, if i'm not thinking of other new ideas..
+          Using NuxtJS and TheMovieDatabase API.  No longer actively developing.
         </p>
       </div>
       <a
